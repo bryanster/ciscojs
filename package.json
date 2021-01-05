@@ -1,0 +1,14 @@
+{
+  "name": "ciscojs",
+  "version": "1.0.0",
+  "description": "a ssh wrapper",
+  "main": "cisco.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2-promise": "^0.1.7"
+  }
+}
