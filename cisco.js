@@ -9,7 +9,7 @@ class Api {
       
     }
     
-    showadmin(){return this._command("sh run")}
+    showrun(){return this._command("sh run")}
     async _command(command) {
         var ssh = new SSH2Promise(this.sshconfig);
         ssh.connect()
