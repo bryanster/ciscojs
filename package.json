@@ -1,6 +1,6 @@
 {
   "name": "ciscojs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a ssh wrapper",
   "main": "cisco.js",
   "scripts": {
