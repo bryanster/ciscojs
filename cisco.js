@@ -10,6 +10,7 @@ class Api {
     }
     
     showrun(){return this._command("sh run")}
+    showversion(){return this._command("sh version")}
     async _command(command) {
         var ssh = new SSH2Promise(this.sshconfig);
         ssh.connect()
