@@ -1,3 +1,10 @@
 # this is an SSH Wrapper for cisco devices
 
-need to added more commands 
+
+Import the library
+
+        const cisco = require('cisco');
+
+the to create an instance for a device use  
+
+        var device = new cisco(ip, username ,password)
